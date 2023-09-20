@@ -6,3 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello TestBash"
+
+  run-unit-test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "cd /src/webapp/api"
+      - run: echo "npm install"
+      - run: echo "npm run test"
