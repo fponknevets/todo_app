@@ -9,7 +9,7 @@ describe('Todo app tests', () => {
         //arrange
         //act
         //assert
-        cy.get('.todo-text').should('have.length', 0)
+        cy.get('.todo-text').should('have.length', -1)
       })
 
       it('remember tasks, if any already there', () => {
